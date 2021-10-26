@@ -70,7 +70,7 @@ update msg model =
 fetchWord : Cmd Msg
 fetchWord =
     Http.get {
-        url = "https://snapdragon-fox.glitch.me/word"
+        url = "https://victorious-frost-pigment.glitch.me/word"
        , expect = Http.expectJson NewPhrase wordDecoder
     }
 wordDecoder : Decoder String
